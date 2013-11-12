@@ -6,7 +6,6 @@ This is the list of conventions to create databases, tables, fields, and other t
 4. Field names with two or more words are underscored. Example: `first_name`, `last_name`, etc.
 5. Use `id` as name of primary key for all tables with int data type for auto increment or char(32) for UUID/GUID
 6. use the (singular) name of the related table followed by `_id` for foreign keys. Example: `user_id` that reference to `users` table.
-7. Upper casing SQL keywords and built-in functions. Example: 
-    SELECT first_name, last_name, CONCAT(first_name, last_name) AS full_name 
-	FROM users;
+7. Upper casing SQL keywords and built-in functions. Example: `SELECT first_name, last_name, CONCAT(first_name, last_name) AS full_name 
+	FROM users;`
 8. Avoid asterisk (*) symbol on select clause.
